@@ -1,4 +1,5 @@
 "use client";
+
 import { useMemo, useState } from "react";
 import { ToolCard } from "@/components/tool-card";
 import { tools } from "@/lib/tools";
@@ -55,7 +56,7 @@ export function ToolsList({
             <Input
               className={"max-w-xl"}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search tools..."
+              placeholder="Search by name, description, category, tag or provider..."
               size={"lg"}
               type="text"
               value={searchQuery}

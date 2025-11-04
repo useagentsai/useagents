@@ -3,9 +3,9 @@
     "slug": "langchain",
     "name": "LangChain",
     "description": "A framework for developing applications powered by language models. LangChain makes it easy to chain together multiple LLM calls and integrate with various data sources.",
-    "shortDescription": "Framework for building LLM-powered applications",
+    "shortDescription": "Framework for building LLM-powered applications and agents",
     "image": "/langchain.jpg",
-    "category": ["Framework"],
+    "category": ["Framework", "Agents"],
     "tags": ["LangChain", "OpenAI", "LLM", "Python", "JavaScript"],
     "website": "https://www.langchain.com",
     "github": "https://github.com/langchain-ai/langchain",
@@ -148,7 +148,7 @@
     "description": "The AI SDK makes it easy to build AI-powered applications with React, Vue, Svelte, and Node. Provides a unified API for streaming, tools, and more.",
     "shortDescription": "The AI Toolkit for TypeScript",
     "image": "/ai-sdk.png",
-    "category": ["Framework", "SDK"],
+    "category": ["Framework", "SDK", "Agents"],
     "tags": ["Vercel", "React", "Streaming", "OpenAI", "Anthropic"],
     "website": "https://sdk.vercel.ai",
     "github": "https://github.com/vercel/ai",
@@ -162,10 +162,10 @@
     "description": "Essential utilities that extend and improve the Vercel AI SDK experience. Multi-agent orchestration, state management, debugging tools, and structured artifact streaming - everything you need to build advanced AI applications beyond simple chat interfaces.",
     "shortDescription": "Everything you need to build advanced AI interfaces beyond simple chat applications.",
     "image": "/ai-sdk-tools.png",
-    "category": ["Framework", "Memory"],
+    "category": ["Framework", "Memory", "Agents"],
     "tags": ["React", "Streaming", "OpenAI", "Anthropic"],
     "website": "https://ai-sdk-tools.dev",
-    "github": "https://github.com/vercel/ai",
+    "github": "https://github.com/midday-ai/ai-sdk-tools",
     "pricing": {
       "model": "open-source"
     }
@@ -339,7 +339,7 @@
     "name": "CrewAI",
     "description": "A framework for orchestrating role-playing AI agents that collaborate to solve complex tasks, with built-in tools and memory.",
     "shortDescription": "Role-based multi-agent collaboration framework",
-    "image": "/crewai.png",
+    "image": "/crewai.jpg",
     "category": ["Framework", "Agents"],
     "tags": ["Multi-Agent", "AI Agents", "Task Automation", "Python"],
     "website": "https://crewai.com",
@@ -379,10 +379,10 @@
   {
     "slug": "milvus",
     "name": "Milvus",
-    "description": "An open-source vector database for facilitating vector embedding, efficient similarity search, and AI applications.",
-    "shortDescription": "Scalable vector database for AI",
-    "image": "/milvus.png",
-    "category": ["Vector Database", "Scalable"],
+    "description": "Milvus is an open-source vector database built for GenAI applications. Install with pip, perform high-speed searches, and scale to tens of billions of vectors with minimal performance loss.",
+    "shortDescription": "The High-Performance Vector Database Built for Scale",
+    "image": "/milvus.jpg",
+    "category": ["Vector", "Scalable"],
     "tags": [
       "Vector Database",
       "Open Source",
@@ -1102,17 +1102,17 @@
     }
   },
   {
-    "slug": "phidata",
-    "name": "Phidata",
-    "description": "Framework for building autonomous AI assistants and agents with memory, tools, and knowledge bases.",
-    "shortDescription": "Build AI assistants and agents",
-    "image": "/phidata.png",
+    "slug": "agno",
+    "name": "Agno",
+    "description": "Build, run and manage secure multi-agent systems in your cloud with Agno's AgentOS. Built for speed, scale, and developer experience.",
+    "shortDescription": "A multi-agent framework, runtime and control plane. Built for speed, privacy, and scale.",
+    "image": "/agno.jpg",
     "category": ["Framework", "Agents"],
     "tags": ["AI Assistants", "Agents", "Memory", "Python"],
-    "website": "https://www.phidata.com",
-    "github": "https://github.com/phidatahq/phidata",
+    "website": "https://www.agno.com",
+    "github": "https://github.com/agno-ai/agno",
     "pricing": {
-      "model": "open-source"
+      "model": "freemium"
     }
   },
   {
@@ -1121,7 +1121,7 @@
     "description": "SDK for integrating AI agents with external tools, APIs, and workflows in a MCP-compatible manner.",
     "shortDescription": "Tool integration SDK for agents",
     "image": "/composio.jpg",
-    "category": ["SDK", "Tool Integration"],
+    "category": ["Agents", "Tool Integration"],
     "tags": ["Tool Integration", "MCP", "Agents", "JavaScript", "Python"],
     "website": "https://composio.dev",
     "github": "https://github.com/ComposioHQ/composio",
@@ -1133,9 +1133,9 @@
     "slug": "copilotkit",
     "name": "CopilotKit",
     "description": "Open-source framework for building agentic front-ends and integrating AI agents into applications.",
-    "shortDescription": "Agentic UI framework",
-    "image": "/copilotkit.png",
-    "category": ["SDK", "AI Integration"],
+    "shortDescription": "The Agentic Framework for In-App AI-Copilots,",
+    "image": "/copilotkit.jpg",
+    "category": ["Agents"],
     "tags": ["Frontend", "Agents", "React", "Open Source"],
     "website": "https://www.copilotkit.ai",
     "github": "https://github.com/CopilotKit/CopilotKit",
@@ -1513,8 +1513,8 @@
     "slug": "baseten",
     "name": "Baseten",
     "description": "Platform for deploying and scaling ML models with serverless infrastructure. Supports custom models and popular open-source LLMs with fast inference.",
-    "shortDescription": "Deploy and scale ML models",
-    "image": "/baseten.png",
+    "shortDescription": "Deploy AI Models in production.",
+    "image": "/baseten.jpg",
     "category": ["Deployment", "API"],
     "tags": ["ML Deployment", "Serverless", "Inference", "API", "Scalable"],
     "website": "https://baseten.co",
@@ -1555,8 +1555,8 @@
     "name": "Portkey",
     "description": "AI gateway for managing and routing requests across multiple LLM providers. Includes load balancing, fallbacks, caching, and observability for production AI apps.",
     "shortDescription": "AI gateway for LLM routing",
-    "image": "/portkey.png",
-    "category": ["Infrastructure", "API"],
+    "image": "/portkey.jpg",
+    "category": ["Monitoring", "LLM", "API"],
     "tags": [
       "AI Gateway",
       "Load Balancing",
@@ -1693,7 +1693,7 @@
   },
   {
     "slug": "gemini-app",
-    "name": "Gemini App",
+    "name": "Google Gemini App",
     "description": "Google's AI assistant app powered by Gemini models. Chat interface for coding, writing, analysis, and creative tasks with multimodal capabilities.",
     "shortDescription": "Google's AI assistant app",
     "image": "/gemini.png",
@@ -1735,7 +1735,7 @@
     "name": "Grok",
     "description": "xAI's conversational AI assistant with real-time information access and coding capabilities. Integrated into X (Twitter) with unique personality and up-to-date knowledge.",
     "shortDescription": "xAI's AI assistant with real-time info",
-    "image": "/xai.jpg",
+    "image": "/grok.jpg",
     "category": ["Coding", "AI"],
     "tags": ["xAI", "Grok", "AI Assistant", "Real-Time", "Coding"],
     "website": "https://x.ai",
@@ -1761,7 +1761,7 @@
     "name": "Firebase Studio",
     "description": "AI-powered development environment for Firebase projects. Assists with database design, security rules, cloud functions, and Firebase integration.",
     "shortDescription": "AI assistant for Firebase development",
-    "image": "/firebase.png",
+    "image": "/firebase-studio.png",
     "category": ["Coding", "AI"],
     "tags": [
       "Firebase",
@@ -1819,6 +1819,28 @@
     ],
     "website": "https://create.t3.gg",
     "github": "https://github.com/t3-oss/create-t3-app",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "mastra",
+    "name": "Mastra",
+    "description": "TypeScript-native AI agent framework from the Gatsby team. Build intelligent agents with workflows, RAG, memory, and observability. Features durable graph-based state machines, unified provider API, and built-in tracing for production AI applications.",
+    "shortDescription": "The TypeScript Framework for building Agents.",
+    "image": "/mastra.jpg",
+    "category": ["Framework", "Agents"],
+    "tags": [
+      "TypeScript",
+      "AI Agents",
+      "Workflows",
+      "RAG",
+      "Memory",
+      "Observability",
+      "Open Source"
+    ],
+    "website": "https://mastra.ai",
+    "github": "https://github.com/mastra-ai/mastra",
     "pricing": {
       "model": "open-source"
     }

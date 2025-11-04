@@ -40,6 +40,10 @@ const allSections = [
     tag: "LLM Providers",
   },
   {
+    slug: "agents",
+    tag: "Agents",
+  },
+  {
     slug: "mcp",
     tag: "MCP",
   },
@@ -85,6 +89,15 @@ export function Menu() {
     <aside className="w-64 p-4 flex flex-col border-r">
       <ScrollArea className="grow">
         <div className="gap-y-6">
+          <Link href="/tools">
+            <Button
+              className="w-full justify-start font-semibold"
+              variant={pathname === "/tools" ? "secondary" : "ghost"}
+            >
+              All
+            </Button>
+          </Link>
+          <Separator className="my-2" />
           {allSections
             .slice()
             .sort((a, b) => a.tag.localeCompare(b.tag))

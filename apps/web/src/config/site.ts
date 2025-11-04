@@ -1,4 +1,4 @@
-const url = "https://nt3.vercel.app";
+const url = "https://nt3.site";
 
 export const siteConfig = {
   name: "nt3",
