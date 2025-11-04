@@ -1,0 +1,1827 @@
+[
+  {
+    "slug": "langchain",
+    "name": "LangChain",
+    "description": "A framework for developing applications powered by language models. LangChain makes it easy to chain together multiple LLM calls and integrate with various data sources.",
+    "shortDescription": "Framework for building LLM-powered applications",
+    "image": "/langchain.jpg",
+    "category": ["Framework"],
+    "tags": ["LangChain", "OpenAI", "LLM", "Python", "JavaScript"],
+    "website": "https://www.langchain.com",
+    "github": "https://github.com/langchain-ai/langchain",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "description": "An AI-powered code editor that enhances developer productivity with intelligent code suggestions, refactoring, and debugging assistance.",
+    "shortDescription": "The AI Code Editor",
+    "image": "/cursor.jpg",
+    "category": ["IDE", "Coding"],
+    "tags": ["IDE", "AI Coding", "Code Editor"],
+    "website": "https://www.cursor.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "tavily",
+    "name": "Tavily",
+    "description": "AI-powered search engine for developers and researchers. Provides semantic search capabilities and knowledge retrieval for AI applications.",
+    "shortDescription": "The Web Access Layer for AI Agents",
+    "image": "/tavily.jpg",
+    "category": ["API", "Web"],
+    "tags": ["Search", "AI Search", "Semantic Search", "API"],
+    "website": "https://www.tavily.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "exa",
+    "name": "Exa",
+    "description": "AI-powered search engine for developers and researchers. Provides semantic search capabilities and knowledge retrieval for AI applications.",
+    "shortDescription": "We're an AI research lab building search for the future.",
+    "image": "/exa.jpg",
+    "category": ["API", "Web"],
+    "tags": ["Search", "AI Search", "Semantic Search", "API"],
+    "website": "https://www.exa.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "coderabbit",
+    "name": "CodeRabbit",
+    "description": "AI-powered code review assistant that provides intelligent feedback on pull requests, identifies bugs, and suggests improvements.",
+    "shortDescription": "Supercharge your dev team with AI code reviews.",
+    "image": "/coderabbit.jpg",
+    "category": ["Monitoring", "Code Quality"],
+    "tags": [
+      "Code Review",
+      "AI Assistant",
+      "Pull Requests",
+      "Quality Assurance"
+    ],
+    "website": "https://www.coderabbit.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "fal",
+    "name": "Fal",
+    "description": "Cloud platform for running generative AI models, specializing in image and video generation with fast inference.",
+    "shortDescription": "The generative media cloud.",
+    "image": "/fal.jpg",
+    "category": ["LLM", "API"],
+    "tags": [
+      "Generative AI",
+      "Image Generation",
+      "Video Generation",
+      "API",
+      "Inference"
+    ],
+    "website": "https://fal.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "supermemory",
+    "name": "Supermemory",
+    "description": "Supermemory gives your LLMs long-term memory. Instead of stateless text generation, they recall the right facts from your files, chats, and tools, so responses stay consistent, contextual, and personal.",
+    "shortDescription": "Context engine for your LLMs, Personalized for your users.",
+    "image": "/supermemory.jpg",
+    "category": ["Memory"],
+    "tags": ["Context Management", "Memory", "RAG", "Personalization"],
+    "website": "https://supermemory.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "mem0",
+    "name": "Mem0",
+    "description": "Mem0 is a universal, self‑improving memory layer for LLM applications, powering personalised AI experiences that cut costs and enhance user delight.",
+    "shortDescription": "The memory Layer for your AI Apps.",
+    "image": "/mem0.png",
+    "category": ["Memory"],
+    "tags": ["Context Management", "Memory", "RAG", "Personalization"],
+    "website": "https://mem0.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "description": "An advanced AI coding assistant and IDE focused on agentic workflows, code generation, and seamless integration with LLMs.",
+    "shortDescription": "The best AI for coding",
+    "image": "/windsurf.jpg",
+    "category": ["Coding"],
+    "tags": ["IDE", "AI Coding", "Agentic AI"],
+    "website": "https://windsurf.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "description": "A managed vector database service that makes it easy to add vector search to production applications. Perfect for semantic search, RAG, and recommendation systems.",
+    "shortDescription": "The vector database for scale in production.",
+    "image": "/pinecone.png",
+    "category": ["Vector"],
+    "tags": ["Vector Database", "RAG", "Semantic Search", "Embeddings"],
+    "website": "https://www.pinecone.io",
+    "pricing": {
+      "model": "freemium",
+      "price": "Starting at $70/month"
+    }
+  },
+  {
+    "slug": "ai-sdk",
+    "name": "AI SDK",
+    "description": "The AI SDK makes it easy to build AI-powered applications with React, Vue, Svelte, and Node. Provides a unified API for streaming, tools, and more.",
+    "shortDescription": "The AI Toolkit for TypeScript",
+    "image": "/ai-sdk.png",
+    "category": ["Framework", "SDK"],
+    "tags": ["Vercel", "React", "Streaming", "OpenAI", "Anthropic"],
+    "website": "https://sdk.vercel.ai",
+    "github": "https://github.com/vercel/ai",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "ai-sdk-tools",
+    "name": "AI SDK Tools",
+    "description": "Essential utilities that extend and improve the Vercel AI SDK experience. Multi-agent orchestration, state management, debugging tools, and structured artifact streaming - everything you need to build advanced AI applications beyond simple chat interfaces.",
+    "shortDescription": "Everything you need to build advanced AI interfaces beyond simple chat applications.",
+    "image": "/ai-sdk-tools.png",
+    "category": ["Framework", "Memory"],
+    "tags": ["React", "Streaming", "OpenAI", "Anthropic"],
+    "website": "https://ai-sdk-tools.dev",
+    "github": "https://github.com/vercel/ai",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI API",
+    "image": "/openai.jpg",
+    "description": "Access GPT-4, GPT-3.5, embeddings, and other powerful AI models through OpenAI's API. The standard for building AI-powered applications.",
+    "shortDescription": "Access to GPT-4 and other powerful AI models",
+    "category": ["LLM", "API"],
+    "tags": ["OpenAI", "GPT-4", "GPT-3.5", "Embeddings", "API"],
+    "website": "https://platform.openai.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "anthropic-claude",
+    "name": "Anthropic Claude",
+    "image": "/claude.png",
+    "description": "Claude is Anthropic's AI assistant API, featuring advanced reasoning, long context windows, and strong safety features. Great for complex tasks and analysis.",
+    "shortDescription": "Advanced AI assistant with long context windows",
+    "category": ["LLM", "API"],
+    "tags": ["Anthropic", "Claude", "API", "Long Context"],
+    "website": "https://www.anthropic.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "neondb",
+    "name": "Neon Serverless",
+    "image": "/neondb.jpg",
+    "description": "A serverless Postgres database with AI integrations, branching, and autoscaling for AI workloads.",
+    "shortDescription": "Serverless Postgres Database",
+    "category": ["Database", "Vector"],
+    "tags": ["Postgres", "Serverless", "AI Database", "Vector"],
+    "website": "https://neon.tech",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "image": "/qdrant.jpg",
+    "description": "Open-source vector similarity search engine and vector database. High performance, production-ready vector search with filtering capabilities.",
+    "shortDescription": "High-performance Rust-based vector search engine.",
+    "category": ["Vector", "Database"],
+    "tags": ["Vector Database", "Open Source", "RAG", "Semantic Search"],
+    "website": "https://qdrant.tech",
+    "github": "https://github.com/qdrant/qdrant",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "convex",
+    "name": "Convex",
+    "image": "/convex.png",
+    "description": "Open-source vector similarity search engine and vector database. High performance, production-ready vector search with filtering capabilities.",
+    "shortDescription": "The backend platform she tells you not to worry about.",
+    "category": ["Database", "Backend"],
+    "tags": ["Convex", "Open Source", "RAG", "Real-Time"],
+    "website": "https://convex.dev",
+    "github": "https://github.com/convex-dev/convex",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "planetscale",
+    "name": "Planetscale",
+    "image": "/planetscale.jpg",
+    "description": "Open-source vector similarity search engine and vector database. High performance, production-ready vector search with filtering capabilities.",
+    "shortDescription": "The fastest and most reliable database for Postgres & Vitess",
+    "category": ["Database", "Vector"],
+    "tags": ["Planetscale", "Postgres", "Vitess", "Database"],
+    "website": "https://planetscale.com",
+    "github": "https://github.com/planetscale/planetscale",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "description": "Open-source vector database that stores both objects and vectors. Includes built-in modules for embeddings generation, classification, and question answering.",
+    "shortDescription": "Start fast, scale to billions with a feature-rich vector database trusted by AI innovators",
+    "category": ["Vector", "Search"],
+    "image": "/weavite.jpg",
+    "tags": ["Vector Database", "Open Source", "GraphQL", "RAG"],
+    "website": "https://weaviate.io",
+    "github": "https://github.com/weaviate/weaviate",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "image": "/llamaindex.png",
+    "description": "A data framework for LLM applications. LlamaIndex provides the tools to ingest, structure, and access private or domain-specific data for LLMs.",
+    "shortDescription": "AI Agents for document OCR + workflows",
+    "category": ["Framework", "RAG"],
+    "tags": ["LlamaIndex", "RAG", "Data Ingestion"],
+    "website": "https://www.llamaindex.ai",
+    "github": "https://github.com/run-llama/llama_index",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "supabase-vectors",
+    "name": "Supabase Vector",
+    "image": "/supabase.png",
+    "description": "Postgres extension for vector similarity search. Build AI applications with pgvector and Supabase's managed Postgres database.",
+    "shortDescription": "Vector similarity search with Postgres",
+    "category": ["Vector"],
+    "tags": ["Supabase", "Postgres", "pgvector", "Vector Database"],
+    "website": "https://supabase.com/docs/guides/ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "supabase-postgres",
+    "name": "Supabase Postgres",
+    "image": "/supabase.png",
+    "description": "Postgres extension for vector similarity search. Build AI applications with pgvector and Supabase's managed Postgres database.",
+    "shortDescription": "Postgres extension for vector similarity search",
+    "category": ["Database", "Backend"],
+    "tags": ["Supabase", "Postgres", "pgvector", "Vector Database"],
+    "website": "https://supabase.com/database",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "supabase-storage",
+    "name": "Supabase Storage",
+    "image": "/supabase.png",
+    "description": "Postgres extension for vector similarity search. Build AI applications with pgvector and Supabase's managed Postgres database.",
+    "shortDescription": "Postgres extension for vector similarity search",
+    "category": ["Storage"],
+    "tags": ["Supabase", "Storage"],
+    "website": "https://supabase.com/storage",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "autogen",
+    "name": "AutoGen",
+    "description": "An open-source framework for building multi-agent conversational systems, enabling agents to collaborate on tasks with human feedback loops.",
+    "shortDescription": "Framework for multi-agent AI systems",
+    "image": "/microsoft.jpg",
+    "category": ["Framework", "Agents"],
+    "tags": ["Multi-Agent", "Conversational AI", "Microsoft", "Python"],
+    "website": "https://microsoft.github.io/autogen",
+    "github": "https://github.com/microsoft/autogen",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "crewai",
+    "name": "CrewAI",
+    "description": "A framework for orchestrating role-playing AI agents that collaborate to solve complex tasks, with built-in tools and memory.",
+    "shortDescription": "Role-based multi-agent collaboration framework",
+    "image": "/crewai.png",
+    "category": ["Framework", "Agents"],
+    "tags": ["Multi-Agent", "AI Agents", "Task Automation", "Python"],
+    "website": "https://crewai.com",
+    "github": "https://github.com/joaomdmoura/crewAI",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "description": "An extension of LangChain for building stateful, multi-actor applications with LLMs, featuring cycles, controllability, and persistence.",
+    "shortDescription": "Graph-based framework for LLM apps",
+    "image": "/langgraph.png",
+    "category": ["Framework"],
+    "tags": ["LangChain", "Graphs", "Stateful Agents", "Python"],
+    "website": "https://langchain-ai.github.io/langgraph",
+    "github": "https://github.com/langchain-ai/langgraph",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "semantic-kernel",
+    "name": "Semantic Kernel",
+    "description": "Microsoft's open-source orchestration SDK for integrating AI models, tools, and agents in applications.",
+    "shortDescription": "AI orchestration SDK",
+    "image": "/semantic-kernel.png",
+    "category": ["SDK", "Framework"],
+    "tags": ["Microsoft", "Orchestration", "C#", ".NET", "Python"],
+    "website": "https://learn.microsoft.com/en-us/semantic-kernel",
+    "github": "https://github.com/microsoft/semantic-kernel",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "milvus",
+    "name": "Milvus",
+    "description": "An open-source vector database for facilitating vector embedding, efficient similarity search, and AI applications.",
+    "shortDescription": "Scalable vector database for AI",
+    "image": "/milvus.png",
+    "category": ["Vector Database", "Scalable"],
+    "tags": [
+      "Vector Database",
+      "Open Source",
+      "Similarity Search",
+      "Embeddings"
+    ],
+    "website": "https://milvus.io",
+    "github": "https://github.com/milvus-io/milvus",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "gemini",
+    "name": "Gemini AI",
+    "description": "Google's family of multimodal LLMs, offering advanced reasoning, code generation, and API access for AI applications.",
+    "shortDescription": "Multimodal LLM from Google",
+    "image": "/gemini.png",
+    "category": ["LLM", "API"],
+    "tags": ["Google", "Gemini", "API", "Multimodal"],
+    "website": "https://aistudio.google.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "mistral",
+    "name": "Mistral AI",
+    "description": "Open and proprietary LLMs focused on efficiency, with APIs for fine-tuning and deployment in AI apps.",
+    "shortDescription": "Efficient LLMs for developers",
+    "image": "/mistral.png",
+    "category": ["LLM", "Open Source"],
+    "tags": ["Mistral", "Open Source Models", "API", "Fine-Tuning"],
+    "website": "https://mistral.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "llama",
+    "name": "Meta Llama",
+    "description": "Open-source LLMs from Meta, including Llama 3, for building customizable AI applications.",
+    "shortDescription": "Open-source LLMs from Meta",
+    "image": "/llama.webp",
+    "category": ["LLM", "Open Source"],
+    "tags": ["Meta", "Llama", "Open Source", "Customization"],
+    "website": "https://llama.meta.com",
+    "github": "https://github.com/meta-llama/llama",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "description": "In-memory data store used for caching, real-time analytics, and vector search in AI applications.",
+    "shortDescription": "Build AI apps with more speed, memory, and accuracy.",
+    "image": "/redis.jpg",
+    "category": ["Caching", "Database", "Vector", "Memory"],
+    "tags": ["Caching", "Real-Time", "Vector Search", "Memory"],
+    "website": "https://redis.io",
+    "github": "https://github.com/redis/redis",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "description": "NoSQL database with vector search capabilities via Atlas, suitable for flexible AI data storage.",
+    "shortDescription": "Flexible NoSQL database for AI",
+    "image": "/mongodb.png",
+    "category": ["Database"],
+    "tags": ["NoSQL", "Vector Search", "Atlas", "Scalable"],
+    "website": "https://www.mongodb.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "singlestore",
+    "name": "SingleStore",
+    "description": "Distributed SQL database with vector support, optimized for real-time AI and analytics workloads.",
+    "shortDescription": "Real-time database for AI analytics",
+    "image": "/singlestore.png",
+    "category": ["Database", "Analytics"],
+    "tags": ["SQL", "Vector Support", "Real-Time", "Analytics"],
+    "website": "https://www.singlestore.com",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "aws-sagemaker",
+    "name": "AWS SageMaker",
+    "description": "Fully managed platform for building, training, and deploying machine learning models at scale.",
+    "shortDescription": "Managed ML platform on AWS",
+    "image": "/aws.jpg",
+    "category": ["Infrastructure", "ML Ops"],
+    "tags": ["AWS", "ML Training", "Deployment", "Scalable"],
+    "website": "https://aws.amazon.com/sagemaker",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "azure-ml",
+    "name": "Azure Machine Learning",
+    "description": "Cloud-based service for end-to-end ML workflows, including data prep, model training, and deployment.",
+    "shortDescription": "End-to-end ML on Azure",
+    "image": "/microsoft.jpg",
+    "category": ["Infrastructure", "ML Ops"],
+    "tags": ["Azure", "ML Workflows", "AutoML", "Integration"],
+    "website": "https://azure.microsoft.com/en-us/products/machine-learning",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "google-cloud-ai",
+    "name": "Google Cloud AI",
+    "description": "Suite of AI and ML tools for building, deploying, and managing models on Google Cloud infrastructure.",
+    "shortDescription": "AI infrastructure on Google Cloud",
+    "image": "/google-cloud-ai.png",
+    "category": ["Infrastructure", "ML Ops"],
+    "tags": ["Google Cloud", "Vertex AI", "AutoML", "TPUs"],
+    "website": "https://cloud.google.com/ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "description": "AI-powered search engine and answer engine that provides accurate, cited responses using advanced LLMs.",
+    "shortDescription": "AI-powered answer engine",
+    "image": "/perplexity.avif",
+    "category": ["API", "Web", "LLM"],
+    "tags": ["Search", "AI Search", "Answer Engine", "API"],
+    "website": "https://perplexity.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "description": "Open-source LLM observability platform for tracing, evaluations, prompt management, and metrics.",
+    "shortDescription": "LLM observability and monitoring",
+    "image": "/langfuse.jpg",
+    "category": ["Monitoring", "Analytics"],
+    "tags": ["Observability", "Tracing", "Evaluations", "Open Source"],
+    "website": "https://langfuse.com",
+    "github": "https://github.com/langfuse/langfuse",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "description": "Open-source LLM observability platform for tracing, evaluations, prompt management, and metrics.",
+    "shortDescription": "LLM observability and monitoring",
+    "image": "/posthog.jpg",
+    "category": ["Monitoring", "Analytics"],
+    "tags": ["Observability", "Tracing", "Evaluations", "Open Source"],
+    "website": "https://posthog.com",
+    "github": "https://github.com/posthog/posthog",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "upstash-redis",
+    "name": "Upstash Redis",
+    "description": "Serverless Redis database with per-request pricing and REST API. Perfect for caching, session management, and real-time features in AI applications. Built for serverless and edge environments with global low-latency access.",
+    "shortDescription": "Serverless Redis for edge and serverless apps",
+    "image": "/upstash.png",
+    "category": ["Caching", "Serverless"],
+    "tags": ["Redis", "Serverless", "Caching", "Edge", "REST API", "Real-Time"],
+    "website": "https://upstash.com/redis",
+    "github": "https://github.com/upstash/upstash-redis",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "upstash-ratelimit",
+    "name": "Upstash Ratelimit",
+    "description": "Serverless Redis database with per-request pricing and REST API. Perfect for caching, session management, and real-time features in AI applications. Built for serverless and edge environments with global low-latency access.",
+    "shortDescription": "Serverless Ratelimiting for edge and serverless apps",
+    "image": "/upstash.png",
+    "category": ["Ratelimit", "Serverless"],
+    "tags": ["Redis", "Serverless", "Caching", "Edge", "REST API", "Real-Time"],
+    "website": "https://upstash.com/redis",
+    "github": "https://github.com/upstash/upstash-redis",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "unkey",
+    "name": "Unkey",
+    "description": "Serverless functions offer a ton of benefits but unfortunately make some things much harder too. Ratelimiting is one of these things as it requires some persistent state to coordinate different limits. Unkey’s ratelimit API provides a global low latency solution to limit your functions and protect upstream services.",
+    "shortDescription": "Fast global ratelimiting in serverless functions.",
+    "image": "/unkey.jpg",
+    "category": ["Ratelimit", "Serverless"],
+    "tags": ["Serverless", "Edge", "REST API", "Real-Time"],
+    "website": "https://unkey.com",
+    "github": "https://github.com/unkey/unkey",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "cloudflare-kv",
+    "name": "Cloudflare KV",
+    "description": "Serverless Redis database with per-request pricing and REST API. Perfect for caching, session management, and real-time features in AI applications. Built for serverless and edge environments with global low-latency access.",
+    "shortDescription": "Serverless key-value storage for applications on Cloudflare",
+    "image": "/cloudflare.jpg",
+    "category": ["Caching", "Serverless"],
+    "tags": [
+      "Cloudflare",
+      "Serverless",
+      "Caching",
+      "Edge",
+      "REST API",
+      "Real-Time"
+    ],
+    "website": "https://cloudflare.com",
+    "github": "https://github.com/cloudflare/cloudflare-kv",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "cloudflare-d1",
+    "name": "Cloudflare D1",
+    "description": "Workflows is a durable execution engine built on Cloudflare Workers. Workflows allow you to build multi-step applications that can automatically retry, persist state and run for minutes, hours, days, or weeks. Workflows introduces a programming model that makes it easier to build reliable, long-running tasks, observe as they progress, and programmatically trigger instances based on events across your services.",
+    "shortDescription": "Build a natively serveless SQL Database with Cloudflare D1.",
+    "image": "/cloudflare.jpg",
+    "category": ["Database"],
+    "tags": [
+      "Cloudflare",
+      "Serverless",
+      "Caching",
+      "Edge",
+      "REST API",
+      "Real-Time"
+    ],
+    "website": "https://cloudflare.com",
+    "github": "https://github.com/cloudflare/cloudflare-kv",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "cloudflare-vecorize",
+    "name": "Cloudflare Vecorize",
+    "description": "Begin building for free in minutes. Vectorize enables fast & cost-effective vector storage to power your search & AI Retrieval Augmented Generation (RAG) applications. Avoid tool sprawl & reduce total cost of ownership: Vectorize seamlessly integrates with Cloudflare’s AI developer platform-Workers AI and AI Gateway for centralized development, monitoring & control of AI applications on a global scale.",
+    "shortDescription": "High speed, globally distributed and cost-efficient vector database.",
+    "image": "/cloudflare.jpg",
+    "category": ["Vector"],
+    "tags": ["Cloudflare", "Vector", "Edge"],
+    "website": "https://cloudflare.com",
+    "github": "https://github.com/cloudflare/cloudflare-kv",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "cloudflare-workflows",
+    "name": "Cloudflare Workflows",
+    "description": "Workflows is a durable execution engine built on Cloudflare Workers. Workflows allow you to build multi-step applications that can automatically retry, persist state and run for minutes, hours, days, or weeks. Workflows introduces a programming model that makes it easier to build reliable, long-running tasks, observe as they progress, and programmatically trigger instances based on events across your services.",
+    "shortDescription": "Build durable multi-step applications on Cloudflare Workers with Workflows.",
+    "image": "/cloudflare.jpg",
+    "category": ["Workflows"],
+    "tags": ["Cloudflare", "Workflows", "Edge"],
+    "website": "https://www.cloudflare.com/developer-platform/products/workflows/",
+    "github": "https://github.com/cloudflare",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "cloudflare-r2",
+    "name": "Cloudflare R2",
+    "description": "Cloudflare R2 Storage allows developers to store large amounts of unstructured data without the costly egress bandwidth fees associated with typical cloud storage services.",
+    "shortDescription": "Global object storage with zero egress fees",
+    "image": "/cloudflare.jpg",
+    "category": ["Storage"],
+    "tags": ["Cloudflare", "Edge", "Storage", "REST API", "Zero Egress"],
+    "website": "https://www.cloudflare.com/developer-platform/products/r2/",
+    "github": "https://github.com/cloudflare",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "tigris",
+    "name": "Tigris Data",
+    "description": "Tigris is a globally distributed, multi-cloud object storage service with built-in support for the S3 API. It uses Dynamic Data Placement and Access-Based Rebalancing to deliver low-latency access worldwide — without the need to manage replication or caching.",
+    "shortDescription": "The storage layer purpose built for AI",
+    "image": "/tigris.jpg",
+    "category": ["Storage"],
+    "tags": ["Tigris", "Global", "Storage", "REST API"],
+    "website": "https://tigrisdata.com",
+    "github": "https://github.com/cloudflare/cloudflare-kv",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "upstash-vector",
+    "name": "Upstash Vector",
+    "description": "Serverless vector database designed for AI applications, featuring similarity search, metadata filtering, and REST API. Optimized for RAG systems and semantic search with pay-per-request pricing and global edge deployment.",
+    "shortDescription": "Serverless vector database for AI apps",
+    "image": "/upstash.png",
+    "category": ["Vector"],
+    "tags": [
+      "Vector Database",
+      "Serverless",
+      "RAG",
+      "Semantic Search",
+      "Edge",
+      "REST API",
+      "Embeddings"
+    ],
+    "website": "https://upstash.com/vector",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "upstash-qstash",
+    "name": "Upstash QStash",
+    "description": "Serverless message queue and task scheduler for distributed systems. Enables reliable message delivery, scheduled tasks, and workflow orchestration with HTTP-based API. Ideal for AI agent workflows and async processing.",
+    "shortDescription": "Serverless messaging and task scheduling",
+    "image": "/upstash.png",
+    "category": ["Infrastructure", "Messaging"],
+    "tags": [
+      "Message Queue",
+      "Serverless",
+      "Task Scheduler",
+      "Workflow",
+      "HTTP API",
+      "Async"
+    ],
+    "website": "https://upstash.com/qstash",
+    "github": "https://github.com/upstash/qstash-js",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per message"
+    }
+  },
+  {
+    "slug": "upstash-workflow",
+    "name": "Upstash Workflow",
+    "description": "Serverless workflow engine for orchestrating multi-step AI tasks and agent workflows. Build reliable, durable executions with automatic retries, state management, and step functions. Perfect for complex AI pipelines and LLM chains.",
+    "shortDescription": "Serverless workflow orchestration for AI",
+    "image": "/upstash.png",
+    "category": ["Workflows", "Serverless"],
+    "tags": [
+      "Workflow",
+      "Orchestration",
+      "Serverless",
+      "AI Agents",
+      "State Management",
+      "Durable Execution"
+    ],
+    "website": "https://upstash.com/docs/workflow",
+    "github": "https://github.com/upstash/workflow-js",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per step execution"
+    }
+  },
+  {
+    "slug": "inngest",
+    "name": "Inngest",
+    "description": "Serverless workflow engine for orchestrating multi-step AI tasks and agent workflows. Build reliable, durable executions with automatic retries, state management, and step functions. Perfect for complex AI pipelines and LLM chains.",
+    "shortDescription": "Serverless workflow orchestration for AI",
+    "image": "/inngest.jpg",
+    "category": ["Workflows"],
+    "tags": [
+      "Workflow",
+      "Orchestration",
+      "Serverless",
+      "AI Agents",
+      "State Management",
+      "Durable Execution"
+    ],
+    "website": "https://upstash.com/docs/workflow",
+    "github": "https://github.com/upstash/workflow-js",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per step execution"
+    }
+  },
+  {
+    "slug": "evidently",
+    "name": "Evidently AI",
+    "description": "Evidently is an open-source Python library to evaluate, test, and monitor ML and LLM systems—from experiments to production.",
+    "shortDescription": "Open source ML and LLM evaluation, testing and monitoring.",
+    "image": "/evidently.png",
+    "category": ["Monitoring", "ML Ops"],
+    "tags": ["ML Monitoring", "Data Drift", "Python", "Open Source"],
+    "website": "https://evidentlyai.com",
+    "github": "https://github.com/evidentlyai/evidently",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "dynatrace",
+    "name": "Dynatrace",
+    "description": "AI-powered observability platform for monitoring applications, infrastructure, and LLM performance.",
+    "shortDescription": "AI observability for apps and infra",
+    "image": "/dynatrace.jpg",
+    "category": ["Monitoring", "Observability"],
+    "tags": ["Observability", "AIOps", "Cloud Monitoring", "LLM Monitoring"],
+    "website": "https://www.dynatrace.com",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "huggingface",
+    "name": "Hugging Face",
+    "description": "Platform for building, deploying, and sharing ML models, with hosting for AI agents and inference endpoints.",
+    "shortDescription": "ML model hub and deployment platform",
+    "image": "/huggingface.jpg",
+    "category": ["API", "LLM"],
+    "tags": ["Model Hub", "Inference", "Spaces", "Open Source"],
+    "website": "https://huggingface.co",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "replicate",
+    "name": "Replicate",
+    "description": "Cloud platform for running and deploying ML models, with easy API access for AI applications.",
+    "shortDescription": "Run AI with an API.",
+    "image": "/replicate.jpg",
+    "category": ["LLM", "API"],
+    "tags": ["ML Deployment", "API", "Scalable", "Cloud"],
+    "website": "https://replicate.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per usage"
+    }
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "description": "Platform for deploying frontend and serverless applications, with built-in support for AI SDKs and edge functions.",
+    "shortDescription": "Deployment for AI-powered apps",
+    "image": "/vercel.png",
+    "category": ["Deployment", "Hosting"],
+    "tags": [
+      "Serverless",
+      "Frontend",
+      "Edge",
+      "AI Integration",
+      "Open Source",
+      "Deployment"
+    ],
+    "website": "https://vercel.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "flydotio",
+    "name": "Fly.io",
+    "description": "Platform for deploying frontend and serverless applications, with built-in support for AI SDKs and edge functions.",
+    "shortDescription": "Run web, AI, & app servers close to your users on CPUs and GPUs.",
+    "image": "/flydotio.jpg",
+    "category": ["Deployment", "Hosting"],
+    "tags": [
+      "CPU",
+      "GPU",
+      "Edge",
+      "AI Integration",
+      "Open Source",
+      "Deployment"
+    ],
+    "website": "https://fly.io",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "firecrawl",
+    "name": "Firecrawl",
+    "description": "Turn websites into LLM-ready data.",
+    "shortDescription": "Turn websites into LLM-ready data.",
+    "image": "/firecrawl.jpg",
+    "category": ["Data", "Web"],
+    "tags": ["Data", "LLM", "Open Source"],
+    "website": "https://firecrawl.dev",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "description": "Cloud platform for deploying web applications, APIs, databases, and background workers with automatic scaling.",
+    "shortDescription": "The modern cloud for application developers and teams.",
+    "image": "/render.jpg",
+    "category": ["Deployment", "Hosting"],
+    "tags": ["Cloud Platform", "Web Apps", "APIs", "Databases", "Auto-scaling"],
+    "website": "https://render.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "xmcp",
+    "name": "xmcp",
+    "description": "xmcp is a framework for building and shipping MCP servers with TypeScript. Designed with DX in mind, it simplifies setup and removes friction in just one command — making it easy to build & deploy AI tools on top of the Model Context Protocol ecosystem.",
+    "shortDescription": "The TypeScript framework for building & shipping MCP servers.",
+    "image": "/xmcp.png",
+    "category": ["MCP"],
+    "tags": ["MCP", "TypeScript", "AI Integration", "Open Source"],
+    "website": "https://xmcp.dev",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "speakeasy",
+    "name": "Speakeasy",
+    "description": "Platform for generating type-safe SDKs and API documentation that are optimized for both developers and LLMs.",
+    "shortDescription": "Generate MCP servers and SDKs from OpenAPI.",
+    "image": "/speakeasy.jpg",
+    "category": ["MCP"],
+    "tags": ["MCP", "Type Safety", "Developer Tools"],
+    "website": "https://speakeasy.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "description": "AI voice generation platform for creating realistic text-to-speech, voice cloning, and audio content for applications.",
+    "shortDescription": "The voice of technology. Bringing the world's knowledge, stories and agents to life.",
+    "image": "/elevenlabs.jpg",
+    "category": ["API", "Voice"],
+    "tags": [
+      "Voice Generation",
+      "Text-to-Speech",
+      "Voice Cloning",
+      "Audio AI",
+      "API"
+    ],
+    "website": "https://elevenlabs.io",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "description": "Open-source workflow automation platform for building AI workflows with visual interface and code flexibility.",
+    "shortDescription": "Build and deploy AI workflows with the flexibility of code and the speed of no-code.",
+    "image": "/n8n.png",
+    "category": ["Workflows", "Automation"],
+    "tags": ["Workflow Automation", "No-Code", "AI Integration", "Open Source"],
+    "website": "https://n8n.io",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "workflow-devkit",
+    "name": "Workflow DevKit",
+    "description": "Developer toolkit for building durable, resilient, and observable workflows for AI applications.",
+    "shortDescription": "Build durable, resilient, and observable workflows.",
+    "image": "/workflow-devkit.png",
+    "category": ["Workflows", "Development"],
+    "tags": [
+      "Workflow Engine",
+      "Durable Execution",
+      "Observability",
+      "Open Source",
+      "Vercel"
+    ],
+    "website": "https://useworkflow.dev",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "trigger-dev",
+    "name": "Trigger.dev",
+    "description": "Platform for building and deploying background jobs, AI agents, and long-running workflows with built-in observability.",
+    "shortDescription": "Build and deploy fully‑managed AI agents and workflows.",
+    "image": "/trigger-dev.jpg",
+    "category": ["Workflows", "Background Jobs"],
+    "tags": [
+      "Background Jobs",
+      "AI Agents",
+      "Workflows",
+      "Observability",
+      "Open Source"
+    ],
+    "website": "https://trigger.dev",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "description": "AI-powered code completion tool integrated into IDEs, suggesting code and entire functions.",
+    "shortDescription": "AI code completion in your IDE",
+    "image": "/github-copilot.jpg",
+    "category": ["IDE", "AI Coding"],
+    "tags": ["Code Suggestion", "Microsoft", "VS Code", "Productivity"],
+    "website": "https://github.com/features/copilot",
+    "pricing": {
+      "model": "paid",
+      "price": "$10/month"
+    }
+  },
+  {
+    "slug": "tabnine",
+    "name": "Tabnine",
+    "description": "AI coding assistant that provides context-aware code completions across multiple IDEs.",
+    "shortDescription": "Context-aware AI coding assistant",
+    "image": "/tabnine.png",
+    "category": ["IDE", "AI Coding"],
+    "tags": ["Code Completion", "Privacy-Focused", "Multi-IDE", "Enterprise"],
+    "website": "https://www.tabnine.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "codeium",
+    "name": "Codeium",
+    "description": "Free AI-powered code acceleration toolkit for developers, supporting multiple languages and IDEs.",
+    "shortDescription": "Free AI code acceleration",
+    "image": "/codeium.png",
+    "category": ["IDE", "AI Coding"],
+    "tags": ["Code Generation", "Free", "Multi-Language", "IDE Integration"],
+    "website": "https://codeium.com",
+    "pricing": {
+      "model": "free"
+    }
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "description": "AI platform providing LLMs and APIs for building enterprise-grade generative AI applications.",
+    "shortDescription": "Enterprise LLMs and APIs",
+    "image": "/cohere.png",
+    "category": ["API", "LLM"],
+    "tags": ["Cohere", "Generative AI", "RAG", "Enterprise"],
+    "website": "https://cohere.com",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "groq",
+    "name": "Groq",
+    "description": "High-speed inference API for LLMs, optimized for low-latency AI applications.",
+    "shortDescription": "Fast LLM inference API",
+    "image": "/groq.png",
+    "category": ["API", "LLM"],
+    "tags": ["Inference", "Low Latency", "Hardware-Optimized", "API"],
+    "website": "https://groq.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "together-ai",
+    "name": "Together AI",
+    "description": "Cloud platform for building and running generative AI models with open-source flexibility.",
+    "shortDescription": "Open-source AI cloud platform",
+    "image": "/togetherai.png",
+    "category": ["API", "LLM"],
+    "tags": ["Generative AI", "Open Models", "Inference", "Fine-Tuning"],
+    "website": "https://www.together.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "haystack",
+    "name": "Haystack",
+    "description": "Open-source framework for building search systems with LLMs, including RAG pipelines and agents.",
+    "shortDescription": "Framework for LLM search systems",
+    "image": "/haystack.png",
+    "category": ["Framework", "Search"],
+    "tags": ["RAG", "Search", "NLP", "Python"],
+    "website": "https://haystack.deepset.ai",
+    "github": "https://github.com/deepset-ai/haystack",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "phidata",
+    "name": "Phidata",
+    "description": "Framework for building autonomous AI assistants and agents with memory, tools, and knowledge bases.",
+    "shortDescription": "Build AI assistants and agents",
+    "image": "/phidata.png",
+    "category": ["Framework", "Agents"],
+    "tags": ["AI Assistants", "Agents", "Memory", "Python"],
+    "website": "https://www.phidata.com",
+    "github": "https://github.com/phidatahq/phidata",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "composio",
+    "name": "Composio",
+    "description": "SDK for integrating AI agents with external tools, APIs, and workflows in a MCP-compatible manner.",
+    "shortDescription": "Tool integration SDK for agents",
+    "image": "/composio.jpg",
+    "category": ["SDK", "Tool Integration"],
+    "tags": ["Tool Integration", "MCP", "Agents", "JavaScript", "Python"],
+    "website": "https://composio.dev",
+    "github": "https://github.com/ComposioHQ/composio",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "copilotkit",
+    "name": "CopilotKit",
+    "description": "Open-source framework for building agentic front-ends and integrating AI agents into applications.",
+    "shortDescription": "Agentic UI framework",
+    "image": "/copilotkit.png",
+    "category": ["SDK", "AI Integration"],
+    "tags": ["Frontend", "Agents", "React", "Open Source"],
+    "website": "https://www.copilotkit.ai",
+    "github": "https://github.com/CopilotKit/CopilotKit",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "vespa",
+    "name": "Vespa",
+    "description": "Open-source big data serving engine for AI retrieval, recommendation, and search applications.",
+    "shortDescription": "Big data serving for AI",
+    "image": "/vespa.png",
+    "category": ["Vector Database", "Search"],
+    "tags": ["Search Engine", "Recommendations", "Open Source", "Java"],
+    "website": "https://vespa.ai",
+    "github": "https://github.com/vespa-engine/vespa",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "opik",
+    "name": "Opik",
+    "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with tracing, eval metrics, and production-ready dashboards..",
+    "shortDescription": "Track. Evaluate. Test. Ship. Repeat.",
+    "image": "/comet.jpg",
+    "category": ["Monitoring", "Analytics"],
+    "tags": ["Evaluation", "Testing", "Monitoring", "Open Source", "Comet"],
+    "website": "https://www.comet.com/opik",
+    "github": "https://github.com/comet-ml/opik",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "braintrust",
+    "name": "Braintrust",
+    "description": "Platform for evaluating and monitoring AI systems, with tools for debugging and improving LLM apps.",
+    "shortDescription": "The observability layer for production AI.",
+    "image": "/braintrust.jpg",
+    "category": ["Monitoring", "ML Ops"],
+    "tags": ["Evaluation", "Debugging", "LLM Apps", "Collaboration"],
+    "website": "https://www.braintrust.dev",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "flowise",
+    "name": "Flowise",
+    "description": "Low-code platform for building and deploying AI agents and workflows visually.",
+    "shortDescription": "Low-code AI agent builder",
+    "image": "/flowise.png",
+    "category": ["Deployment", "Low-Code"],
+    "tags": ["Low-Code", "Workflows", "Agents", "Open Source"],
+    "website": "https://flowiseai.com",
+    "github": "https://github.com/FlowiseAI/Flowise",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "zed",
+    "name": "Zed",
+    "description": "High-performance code editor with AI integrations for collaborative coding.",
+    "shortDescription": "A next-generation code editor that enables high-performance collaboration with AI and your team.",
+    "image": "/zed.jpeg",
+    "category": ["IDE", "Collaboration"],
+    "tags": ["Code Editor", "Collaboration", "Performance", "Open Source"],
+    "website": "https://zed.dev",
+    "github": "https://github.com/zed-industries/zed",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "v0",
+    "name": "v0",
+    "description": "AI-powered generative UI platform by Vercel for creating React components and interfaces through natural language.",
+    "shortDescription": "Full stack vibe coding platform.",
+    "image": "/v0.jpg",
+    "category": ["Coding", "AI"],
+    "tags": ["Generative UI", "React", "AI Coding", "Vercel"],
+    "website": "https://v0.dev",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "bolt-new",
+    "name": "bolt.new",
+    "description": "AI-powered full-stack development platform for building and deploying web applications through conversational interface.",
+    "shortDescription": "Create stunning web apps that scale to millions by chatting with AI.",
+    "image": "/bolt-new.jpg",
+    "category": ["Coding", "AI"],
+    "tags": ["AI Coding", "Full-Stack", "Web Development", "Conversational AI"],
+    "website": "https://bolt.new",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "lovable",
+    "name": "Lovable",
+    "description": "AI-powered platform for building full-stack applications and websites through natural language conversations.",
+    "shortDescription": "Build apps and websites by chatting with AI.",
+    "image": "/lovable.jpg",
+    "category": ["Coding", "AI"],
+    "tags": ["AI Coding", "Full-Stack", "Web Development", "No-Code"],
+    "website": "https://lovable.dev",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "fireworks-ai",
+    "name": "Fireworks AI",
+    "description": "Open-source AI models at blazing speed, optimized for your use case, scaled globally with the Fireworks Inference Cloud.",
+    "shortDescription": "The fastest most reliable inference cloud.",
+    "image": "/fireworks-ai.jpg",
+    "category": ["API", "LLM"],
+    "tags": ["Inference", "Generative AI", "API", "Scalable"],
+    "website": "https://fireworks.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "description": "Open-source LLMs focused on coding and reasoning, with free API access for developers.",
+    "shortDescription": "Coding-focused open LLMs",
+    "image": "/deepseek.png",
+    "category": ["LLM", "Open Source"],
+    "tags": ["DeepSeek", "Coding", "Open Source", "API"],
+    "website": "https://deepseek.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "pulumi",
+    "name": "Pulumi",
+    "description": "Infrastructure as code tool for provisioning cloud resources in AI workflows.",
+    "shortDescription": "IaC for AI infrastructure",
+    "image": "/pulumi.png",
+    "category": ["Infrastructure", "IaC"],
+    "tags": ["IaC", "Cloud Provisioning", "Multi-Language", "Open Source"],
+    "website": "https://www.pulumi.com",
+    "github": "https://github.com/pulumi/pulumi",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "terraform",
+    "name": "Terraform",
+    "description": "Open-source IaC tool for building, changing, and versioning infrastructure safely and efficiently.",
+    "shortDescription": "IaC tool for cloud infra",
+    "image": "/terraform.png",
+    "category": ["Infrastructure", "IaC"],
+    "tags": ["IaC", "HashiCorp", "Multi-Cloud", "Open Source"],
+    "website": "https://www.terraform.io",
+    "github": "https://github.com/hashicorp/terraform",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "lakera",
+    "name": "Lakera",
+    "description": "AI security and monitoring platform for protecting LLM applications from threats.",
+    "shortDescription": "AI security monitoring",
+    "image": "/lakera.png",
+    "category": ["Monitoring", "Security"],
+    "tags": ["Security", "LLM Protection", "Monitoring", "PII Detection"],
+    "website": "https://www.lakera.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "modal",
+    "name": "Modal",
+    "description": "Serverless platform for running AI and ML workloads with easy deployment.",
+    "shortDescription": "Bring your own code and run CPU, GPU, and data intensive compute at scale.",
+    "image": "/modal.jpeg",
+    "category": ["Deployment", "Serverless"],
+    "tags": ["Serverless", "ML Workloads", "Python", "Scalable", "CPU", "GPU"],
+    "website": "https://modal.com",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "pearai",
+    "name": "PearAI",
+    "description": "AI-powered IDE focused on natural language coding and rapid prototyping.",
+    "shortDescription": "Natural language AI IDE",
+    "image": "/pearai.png",
+    "category": ["IDE", "AI Coding"],
+    "tags": ["AI IDE", "Prototyping", "Open Source"],
+    "website": "https://pearai.app",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "novita",
+    "name": "Novita AI",
+    "description": "API provider for fast and cost-effective LLM inference.",
+    "shortDescription": "Cost-effective LLM API",
+    "image": "/novita.png",
+    "category": ["API", "Image Generation"],
+    "tags": ["Inference", "API", "Cost-Effective", "Scalable"],
+    "website": "https://novita.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "falcon",
+    "name": "Falcon LLM",
+    "description": "High-performing open-source LLM for various AI tasks, developed by TII.",
+    "shortDescription": "High-performance open LLM",
+    "image": "/falcon.png",
+    "category": ["LLM", "Open Source"],
+    "tags": ["Open Source", "TII", "Multilingual", "Efficient"],
+    "website": "https://falconllm.tii.ae",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "streamdown",
+    "name": "StreamDown",
+    "description": "A drop-in replacement for react-markdown, designed for AI-powered streaming.",
+    "shortDescription": "A drop-in replacement for react-markdown, designed for AI-powered streaming.",
+    "image": "/vercel.png",
+    "category": ["UI", "Open Source"],
+    "tags": ["Open Source", "UI", "UI Components", "Markdown", "Vercel"],
+    "website": "https://streamdown.ai",
+    "github": "https://github.com/vercel/streamdown",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "ai-elements",
+    "name": "AI Elements",
+    "description": "AI Elements provides pre-built, customizable React components specifically designed for AI applications, including conversations, messages, code blocks, reasoning displays, and more. The CLI makes it easy to add these components to your Next.js project.",
+    "shortDescription": "A component library built on top of shadcn/ui to help you build AI-native applications faster.",
+    "image": "/vercel.png",
+    "category": ["UI", "Open Source"],
+    "tags": ["Open Source", "UI", "UI Components", "Vercel"],
+    "website": "https://ai-sdk.dev/elements",
+    "github": "https://github.com/vercel/ai-elements",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "prompt-kit",
+    "name": "Prompt Kit",
+    "description": "A drop-in replacement for react-markdown, designed for AI-powered streaming.",
+    "shortDescription": "Core building blocks for AI apps.",
+    "image": "/ai-sdk.png",
+    "category": ["UI", "Open Source"],
+    "tags": ["Open Source", "UI Components", "Markdown"],
+    "website": "https://www.prompt-kit.com/",
+    "github": "https://github.com/ibelick/prompt-kit",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "xai-grok",
+    "name": "xAI Grok",
+    "description": "xAI's Grok LLM with advanced reasoning capabilities, image input support, and real-time information access. Built for complex problem-solving and analysis.",
+    "shortDescription": "Advanced LLM with real-time knowledge",
+    "image": "/xai.jpg",
+    "category": ["LLM", "API"],
+    "tags": ["xAI", "Grok", "Image Input", "Real-Time", "API"],
+    "website": "https://x.ai",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "azure-openai",
+    "name": "Azure OpenAI",
+    "description": "Microsoft Azure's enterprise-grade OpenAI service with GPT-4, GPT-3.5, and embeddings. Includes enhanced security, compliance, and regional availability.",
+    "shortDescription": "Enterprise OpenAI on Azure",
+    "image": "/microsoft.jpg",
+    "category": ["LLM", "API"],
+    "tags": ["Azure", "OpenAI", "Enterprise", "API", "Microsoft"],
+    "website": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "amazon-bedrock",
+    "name": "Amazon Bedrock",
+    "description": "Fully managed service providing access to foundation models from leading AI companies through a single API. Includes Claude, Llama, Mistral, and more with AWS security and scalability.",
+    "shortDescription": "Managed foundation models on AWS",
+    "image": "/aws.jpg",
+    "category": ["LLM", "API"],
+    "tags": ["AWS", "Bedrock", "Foundation Models", "API", "Enterprise"],
+    "website": "https://aws.amazon.com/bedrock",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "deepinfra",
+    "name": "DeepInfra",
+    "description": "Serverless inference API for running open-source LLMs and image models. Fast, cost-effective access to models like Llama, Mistral, and Stable Diffusion.",
+    "shortDescription": "Serverless inference for open models",
+    "image": "/deepinfra.jpg",
+    "category": ["API", "LLM"],
+    "tags": ["Inference", "Open Source", "Serverless", "API", "Cost-Effective"],
+    "website": "https://deepinfra.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "google-vertex-ai",
+    "name": "Google Vertex AI",
+    "description": "Google Cloud's unified AI platform for building, deploying, and scaling ML models. Includes Gemini models, custom training, and MLOps tools.",
+    "shortDescription": "Unified AI platform on Google Cloud",
+    "image": "/google-cloud-ai.png",
+    "category": ["LLM", "API", "Infrastructure"],
+    "tags": ["Google Cloud", "Vertex AI", "Gemini", "MLOps", "API"],
+    "website": "https://cloud.google.com/vertex-ai",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "cerebras",
+    "name": "Cerebras",
+    "description": "Ultra-fast inference platform powered by Cerebras CS-3 chip. Delivers industry-leading speed for LLM inference with support for Llama and other open models.",
+    "shortDescription": "Ultra-fast LLM inference",
+    "image": "/cerebras.jpg",
+    "category": ["API", "LLM"],
+    "tags": ["Inference", "High Performance", "Hardware-Optimized", "API"],
+    "website": "https://cerebras.ai",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "luma-ai",
+    "name": "Luma AI",
+    "description": "AI platform for generating high-quality 3D models and video content. Specializes in photorealistic 3D capture and generation for creative applications.",
+    "shortDescription": "3D and video generation AI",
+    "image": "/luma-ai.jpg",
+    "category": ["API", "Generative AI"],
+    "tags": ["3D Generation", "Video Generation", "Image Generation", "API"],
+    "website": "https://lumalabs.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "baseten",
+    "name": "Baseten",
+    "description": "Platform for deploying and scaling ML models with serverless infrastructure. Supports custom models and popular open-source LLMs with fast inference.",
+    "shortDescription": "Deploy and scale ML models",
+    "image": "/baseten.png",
+    "category": ["Deployment", "API"],
+    "tags": ["ML Deployment", "Serverless", "Inference", "API", "Scalable"],
+    "website": "https://baseten.co",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "ollama",
+    "name": "Ollama",
+    "description": "Run large language models locally on your machine. Simple CLI and API for running Llama, Mistral, and other open-source models without cloud dependencies.",
+    "shortDescription": "Run LLMs locally",
+    "image": "/ollama.png",
+    "category": ["LLM", "Open Source"],
+    "tags": ["Local Inference", "Open Source", "CLI", "Privacy", "Self-Hosted"],
+    "website": "https://ollama.ai",
+    "github": "https://github.com/ollama/ollama",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "anthropic-vertex",
+    "name": "Anthropic Vertex",
+    "description": "Claude models available through Google Cloud's Vertex AI platform. Combines Anthropic's advanced AI with Google Cloud's enterprise infrastructure and security.",
+    "shortDescription": "Claude on Google Cloud",
+    "image": "/google-cloud-ai.png",
+    "category": ["LLM", "API"],
+    "tags": ["Anthropic", "Claude", "Google Cloud", "Vertex AI", "Enterprise"],
+    "website": "https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/claude",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "portkey",
+    "name": "Portkey",
+    "description": "AI gateway for managing and routing requests across multiple LLM providers. Includes load balancing, fallbacks, caching, and observability for production AI apps.",
+    "shortDescription": "AI gateway for LLM routing",
+    "image": "/portkey.png",
+    "category": ["Infrastructure", "API"],
+    "tags": [
+      "AI Gateway",
+      "Load Balancing",
+      "Observability",
+      "Multi-Provider",
+      "Routing"
+    ],
+    "website": "https://portkey.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "cloudflare-workers-ai",
+    "name": "Cloudflare Workers AI",
+    "description": "Run AI models on Cloudflare's global edge network. Access to LLMs, image generation, and embeddings with serverless deployment and low latency worldwide.",
+    "shortDescription": "AI models on Cloudflare edge",
+    "image": "/cloudflare.jpg",
+    "category": ["API", "Edge", "LLM"],
+    "tags": [
+      "Cloudflare",
+      "Edge Computing",
+      "Serverless",
+      "AI Models",
+      "Global"
+    ],
+    "website": "https://developers.cloudflare.com/workers-ai",
+    "pricing": {
+      "model": "freemium",
+      "price": "Free tier available, pay per request"
+    }
+  },
+  {
+    "slug": "openrouter",
+    "name": "OpenRouter",
+    "description": "Unified API for accessing multiple LLM providers including OpenAI, Anthropic, Google, Meta, and more. Route requests to the best model for your use case with automatic fallbacks and load balancing.",
+    "shortDescription": "Unified API for multiple LLM providers",
+    "image": "/openrouter.jpg",
+    "category": ["API", "LLM", "Infrastructure"],
+    "tags": [
+      "Multi-Provider",
+      "API Gateway",
+      "Load Balancing",
+      "Unified API",
+      "Routing"
+    ],
+    "website": "https://openrouter.ai",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token (varies by model)"
+    }
+  },
+  {
+    "slug": "vercel-ai-gateway",
+    "name": "Vercel AI Gateway",
+    "description": "Production-ready AI gateway for managing LLM requests with caching, rate limiting, analytics, and cost tracking. Seamlessly integrates with the Vercel AI SDK and supports all major LLM providers.",
+    "shortDescription": "AI gateway with caching and analytics",
+    "image": "/vercel.png",
+    "category": ["LLM", "API"],
+    "tags": [
+      "AI Gateway",
+      "Caching",
+      "Rate Limiting",
+      "Analytics",
+      "Vercel",
+      "Observability"
+    ],
+    "website": "https://vercel.com/docs/ai-gateway",
+    "pricing": {
+      "model": "paid",
+      "price": "Usage-based pricing"
+    }
+  },
+  {
+    "slug": "kimi",
+    "name": "Kimi",
+    "description": "Large language model from Moonshot AI with exceptional long-context capabilities (up to 200K tokens). Optimized for Chinese and English, excelling at document analysis and complex reasoning tasks.",
+    "shortDescription": "Long-context LLM from Moonshot AI",
+    "image": "/kimi.png",
+    "category": ["LLM", "API"],
+    "tags": [
+      "Moonshot AI",
+      "Long Context",
+      "Chinese",
+      "Document Analysis",
+      "API"
+    ],
+    "website": "https://kimi.moonshot.cn",
+    "pricing": {
+      "model": "paid",
+      "price": "Pay per token"
+    }
+  },
+  {
+    "slug": "qwen",
+    "name": "Qwen",
+    "description": "Open-source large language models from Alibaba Cloud with strong multilingual capabilities. Includes Qwen-Turbo and Qwen-Plus variants optimized for various tasks including coding, math, and reasoning.",
+    "shortDescription": "Multilingual LLMs from Alibaba Cloud",
+    "image": "/qwen.jpg",
+    "category": ["LLM", "Open Source"],
+    "tags": [
+      "Alibaba Cloud",
+      "Qwen",
+      "Multilingual",
+      "Open Source",
+      "Coding",
+      "API"
+    ],
+    "website": "https://qwenlm.github.io",
+    "github": "https://github.com/QwenLM/Qwen",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "description": "AI-powered image generation platform creating stunning, high-quality artwork from text prompts. Known for its artistic style and photorealistic capabilities, widely used by designers and artists.",
+    "shortDescription": "AI image generation platform",
+    "image": "/midjourney.jpg",
+    "category": ["LLM", "API"],
+    "tags": [
+      "Image Generation",
+      "Generative AI",
+      "Art",
+      "Design",
+      "Text-to-Image"
+    ],
+    "website": "https://www.midjourney.com",
+    "pricing": {
+      "model": "paid",
+      "price": "Subscription-based"
+    }
+  },
+  {
+    "slug": "gemini-app",
+    "name": "Gemini App",
+    "description": "Google's AI assistant app powered by Gemini models. Chat interface for coding, writing, analysis, and creative tasks with multimodal capabilities.",
+    "shortDescription": "Google's AI assistant app",
+    "image": "/gemini.png",
+    "category": ["Coding", "AI"],
+    "tags": ["Google", "AI Assistant", "Chat", "Coding", "Multimodal"],
+    "website": "https://gemini.google.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "description": "Anthropic's Claude optimized for coding tasks. Excels at code generation, debugging, refactoring, and technical documentation with long context windows.",
+    "shortDescription": "Claude for coding tasks",
+    "image": "/claude.png",
+    "category": ["Coding", "AI"],
+    "tags": ["Anthropic", "Claude", "Coding", "AI Assistant", "Debugging"],
+    "website": "https://claude.ai",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "description": "OpenAI's conversational AI assistant powered by GPT-4. Versatile tool for coding, writing, analysis, and problem-solving with web browsing and plugin capabilities.",
+    "shortDescription": "OpenAI's AI assistant",
+    "image": "/openai.jpg",
+    "category": ["Coding", "AI"],
+    "tags": ["OpenAI", "GPT-4", "AI Assistant", "Chat", "Coding"],
+    "website": "https://chat.openai.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "grok-app",
+    "name": "Grok",
+    "description": "xAI's conversational AI assistant with real-time information access and coding capabilities. Integrated into X (Twitter) with unique personality and up-to-date knowledge.",
+    "shortDescription": "xAI's AI assistant with real-time info",
+    "image": "/xai.jpg",
+    "category": ["Coding", "AI"],
+    "tags": ["xAI", "Grok", "AI Assistant", "Real-Time", "Coding"],
+    "website": "https://x.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
+    "slug": "chef-convex",
+    "name": "Chef by Convex",
+    "description": "AI-powered development assistant by Convex for building full-stack applications. Helps with database schema design, backend logic, and real-time features.",
+    "shortDescription": "AI assistant for Convex development",
+    "image": "/convex.png",
+    "category": ["Coding", "AI"],
+    "tags": ["Convex", "AI Assistant", "Full-Stack", "Backend", "Real-Time"],
+    "website": "https://convex.dev/chef",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "firebase-studio",
+    "name": "Firebase Studio",
+    "description": "AI-powered development environment for Firebase projects. Assists with database design, security rules, cloud functions, and Firebase integration.",
+    "shortDescription": "AI assistant for Firebase development",
+    "image": "/firebase.png",
+    "category": ["Coding", "AI"],
+    "tags": [
+      "Firebase",
+      "AI Assistant",
+      "Backend",
+      "Cloud Functions",
+      "Google"
+    ],
+    "website": "https://firebase.google.com",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "gemini-cli",
+    "name": "Gemini CLI",
+    "description": "Command-line interface for Google's Gemini AI models. Enables AI-powered coding assistance directly in your terminal with scripting and automation capabilities.",
+    "shortDescription": "Gemini AI in your terminal",
+    "image": "/gemini.png",
+    "category": ["Coding", "AI"],
+    "tags": ["Google", "Gemini", "CLI", "Terminal", "Coding"],
+    "website": "https://ai.google.dev",
+    "pricing": {
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "opencode",
+    "name": "OpenCode",
+    "description": "Open-source AI coding assistant with support for multiple LLMs. Privacy-focused alternative for code generation, completion, and refactoring.",
+    "shortDescription": "The AI coding agent built for the terminal.",
+    "image": "/opencode.png",
+    "category": ["Coding", "AI", "Open Source"],
+    "tags": ["Open Source", "AI Coding", "Privacy", "Code Generation"],
+    "website": "https://opencode.dev",
+    "github": "https://github.com/opencode/opencode",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
+    "slug": "t3-chat",
+    "name": "T3 Chat",
+    "description": "AI chat interface built with the T3 stack (Next.js, tRPC, Tailwind, Prisma). Open-source template for building custom AI chat applications with type safety.",
+    "shortDescription": "T3 stack AI chat template",
+    "image": "/t3chat.jpg",
+    "category": ["Coding", "Open Source"],
+    "tags": [
+      "T3 Stack",
+      "Next.js",
+      "tRPC",
+      "Open Source",
+      "Chat",
+      "TypeScript"
+    ],
+    "website": "https://create.t3.gg",
+    "github": "https://github.com/t3-oss/create-t3-app",
+    "pricing": {
+      "model": "open-source"
+    }
+  }
+]

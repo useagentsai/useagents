@@ -5,13 +5,18 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "manypkg:check": "manypkg check",
+    "manypkg:fix": "manypkg fix",
+    "dev:web": "turbo run dev --filter=@nt3/web",
+    "build:web": "turbo run build --filter=@nt3/web",
+    "start:web": "turbo run start --filter=@nt3/web"
   },
   "devDependencies": {
-    "prettier": "^3.6.2",
+    "@biomejs/biome": "2.3.2",
+    "@manypkg/cli": "^0.25.1",
     "turbo": "^2.6.0",
-    "typescript": "5.9.2"
+    "typescript": "5.9.2",
+    "ultracite": "6.1.0"
   },
   "engines": {
     "node": ">=18"

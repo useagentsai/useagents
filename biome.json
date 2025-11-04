@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": [
+    "ultracite/core"
+  ],
+  "linter": {
+    "enabled": false,
+    "rules": {
+      "nursery": {
+        "useMaxParams": "off"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "off",
+        "useKeyWithClickEvents": "off"
+      },
+      "performance": {
+        "useTopLevelRegex": "off"
+      },
+      "suspicious": {
+        "useAwait": "off",
+        "noExplicitAny": "off",
+        "noExtraNonNullAssertion": "off"
+      },
+      "style": {
+        "useNamingConvention": "off",
+        "noMagicNumbers": "off"
+      }
+    }
+  }
+}
