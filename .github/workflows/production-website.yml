@@ -12,6 +12,7 @@ on:
     paths:
       - apps/website/**
       - packages/**
+  workflow_dispatch:
 jobs:
   deploy-production:
     runs-on: ubuntu-latest
