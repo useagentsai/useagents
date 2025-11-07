@@ -31,7 +31,8 @@ export function Menu() {
             <Button
               className={cn(
                 "w-full justify-start text-base cursor-pointer",
-                pathname === "/" && "bg-blue-100 text-blue-700 hover:bg-blue-50"
+                pathname === "/" &&
+                  "bg-blue-100 dark:bg-blue-500/10 text-blue-700 hover:bg-blue-50 dark:hover:bg-blue-400/10"
               )}
               variant={pathname === "/" ? "secondary" : "ghost"}
             >
@@ -54,7 +55,7 @@ export function Menu() {
                         className={cn(
                           "w-full justify-start cursor-pointer text-base gap-2",
                           isActive &&
-                            "bg-blue-100 text-blue-700 hover:bg-blue-50"
+                            "bg-blue-100 dark:bg-blue-500/10 text-blue-700 hover:bg-blue-50 dark:hover:bg-blue-400/10"
                         )}
                         size={"lg"}
                         variant={isActive ? "secondary" : "ghost"}
@@ -107,7 +108,8 @@ export function Menu() {
             <Button
               className={cn(
                 "w-full justify-start text-base cursor-pointer",
-                pathname === "/" && "bg-blue-100 text-blue-700 hover:bg-blue-50"
+                pathname === "/" &&
+                  "bg-blue-100 dark:bg-blue-500/10 text-blue-700 hover:bg-blue-50 dark:hover:bg-blue-400/10"
               )}
               variant={pathname === "/" ? "secondary" : "ghost"}
             >
@@ -130,7 +132,7 @@ export function Menu() {
                         className={cn(
                           "w-full justify-start cursor-pointer text-base gap-2",
                           isActive &&
-                            "bg-blue-100 text-blue-700 hover:bg-blue-50"
+                            "bg-blue-100 dark:bg-blue-500/10 text-blue-700 hover:bg-blue-50 dark:hover:bg-blue-400/10"
                         )}
                         size={"lg"}
                         variant={isActive ? "secondary" : "ghost"}
@@ -153,7 +155,7 @@ export function Menu() {
               target="_blank"
             >
               <Button
-                className="w-full cursor-pointer bg-[#F5F5F3]/30 text-black border border-black rounded-full items-center justify-center gap-2 font-medium flex dark:text-white dark:border-white"
+                className="w-full bg-[#F5F5F3]/30 text-black border border-black rounded-full items-center justify-center gap-2 font-medium flex dark:text-white dark:border-white"
                 variant="outline"
               >
                 <span>Submit</span> <PlusIcon className="w-4 h-4" />

@@ -34,7 +34,7 @@ export default async function ToolPage(props: PageProps<"/[category]">) {
   const section = allSections.find((s) => s.slug === category.toLowerCase());
 
   return (
-    <FadeInWrapper>
+    <FadeInWrapper className="container max-w-7xl mx-auto">
       <div className="mb-8 mt-10">
         <div className="mb-10">
           <h1 className="lg:text-2xl text-xl font-medium mb-2 bg-linear-to-r from-primary to-primary/70 text-transparent bg-clip-text">

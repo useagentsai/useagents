@@ -1434,7 +1434,7 @@
   {
     "slug": "shadcn",
     "name": "shadcn/ui",
-    "description": "Beautifully designed components built with Radix UI and Tailwind CSS. shadcn/ui provides accessible, customizable, and reusable components that you can copy and paste into your apps.",
+    "description": "Beautifully designed components built with Radix UI and Tailwind CSS. shadcn/ui provides accessible, customizable, and reusable components that you can copy and paste into your apps. It's not a component library but a collection of reusable components that you can copy and paste into your apps.",
     "shortDescription": "Beautifully designed components built with Radix UI and Tailwind CSS.",
     "image": "/shadcn.png",
     "category": ["UI", "Open Source"],
@@ -1447,7 +1447,10 @@
       "Radix UI"
     ],
     "website": "https://ui.shadcn.com",
+    "docs": "https://ui.shadcn.com/docs",
     "github": "https://github.com/shadcn-ui/ui",
+    "languages": ["TypeScript", "JavaScript"],
+    "frameworks": ["Next.js", "Vite", "Remix", "Gatsby", "Astro", "Laravel", "Create React App"],
     "pricing": {
       "model": "open-source"
     }
@@ -1455,13 +1458,16 @@
   {
     "slug": "ai-elements",
     "name": "AI Elements",
-    "description": "AI Elements provides pre-built, customizable React components specifically designed for AI applications, including conversations, messages, code blocks, reasoning displays, and more. The CLI makes it easy to add these components to your Next.js project.",
+    "description": "AI Elements provides pre-built, customizable React components specifically designed for AI applications, including conversations, messages, code blocks, reasoning displays, and more. Part of the Vercel AI SDK, it includes 20+ production-ready React components for building AI interfaces with built-in support for streaming, loading states, and error handling.",
     "shortDescription": "A component library built on top of shadcn/ui to help you build AI-native applications faster.",
     "image": "/vercel.png",
     "category": ["UI", "Open Source"],
-    "tags": ["Open Source", "UI", "UI Components", "Vercel"],
+    "tags": ["Open Source", "UI", "UI Components", "Vercel", "AI"],
     "website": "https://ai-sdk.dev/elements",
+    "docs": "https://sdk.vercel.ai/docs/elements/introduction",
     "github": "https://github.com/vercel/ai-elements",
+    "languages": ["TypeScript", "JavaScript"],
+    "frameworks": ["Next.js", "React"],
     "pricing": {
       "model": "open-source"
     }
@@ -1469,13 +1475,16 @@
   {
     "slug": "prompt-kit",
     "name": "Prompt Kit",
-    "description": "A drop-in replacement for react-markdown, designed for AI-powered streaming.",
-    "shortDescription": "Core building blocks for AI apps.",
+    "description": "A collection of high-quality, accessible, and customizable components for building AI interfaces. Provides core building blocks for AI applications, including markdown rendering, code highlighting, and chat interfaces. Built on top of shadcn/ui for consistent theming and styling.",
+    "shortDescription": "Core building blocks for AI applications with beautiful, accessible components.",
     "image": "/ai-sdk.png",
     "category": ["UI", "Open Source"],
-    "tags": ["Open Source", "UI Components", "Markdown"],
+    "tags": ["Open Source", "UI Components", "Markdown", "React", "AI"],
     "website": "https://www.prompt-kit.com/",
+    "docs": "https://github.com/ibelick/prompt-kit#readme",
     "github": "https://github.com/ibelick/prompt-kit",
+    "languages": ["TypeScript", "JavaScript"],
+    "frameworks": ["Next.js", "React"],
     "pricing": {
       "model": "open-source"
     }

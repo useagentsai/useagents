@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSelectedLayoutSegment } from "next/navigation";
-import { Button } from "./ui/button";
+import { ThemeToggle } from "./theme-toggle";
 
 export default function Header() {
   const pathname = usePathname();
@@ -43,6 +43,8 @@ export default function Header() {
                 </Link>
               );
             })}
+
+            <ThemeToggle />
           </nav>
         </div>
       </div>

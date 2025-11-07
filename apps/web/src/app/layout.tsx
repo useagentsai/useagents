@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { NuqsAdapter } from "nuqs/adapters/next";
 import Header from "@/components/header";
+import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { geistMono, geistSans } from "@/styles/fonts";
@@ -64,7 +65,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
           "font-sans antialiased whitespace bg-background text-foreground",
@@ -72,13 +73,20 @@ export default function RootLayout({
           geistMono.variable
         )}
       >
-        <NuqsAdapter>
-          <Header />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          disableTransitionOnChange
+          enableSystem
+        >
+          <NuqsAdapter>
+            <Header />
 
-          {children}
-          <Analytics />
-          <SpeedInsights />
-        </NuqsAdapter>
+            {children}
+            <Analytics />
+            <SpeedInsights />
+          </NuqsAdapter>
+        </ThemeProvider>
       </body>
     </html>
   );
