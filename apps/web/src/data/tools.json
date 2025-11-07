@@ -43,6 +43,20 @@
     }
   },
   {
+    "slug": "parallel-web-systems",
+    "name": "Parallel Web Systems",
+    "description": "The Search API takes a natural language objective and returns relevant excerpts optimized for LLMs, replacing multiple keyword searches with a single call for broad or complex queries.",
+    "shortDescription": "The most accurate tools for AI agents to search and reason over the web. ",
+    "image": "/parallel.jpg",
+    "category": ["API", "Web"],
+    "tags": ["Search", "AI Search", "Semantic Search", "API"],
+    "languages": ["Python", "JavaScript", "TypeScript"],
+    "website": "https://www.parallel.ai",
+    "pricing": {
+      "model": "paid"
+    }
+  },
+  {
     "slug": "exa",
     "name": "Exa",
     "description": "AI-powered search engine for developers and researchers. Provides semantic search capabilities and knowledge retrieval for AI applications.",
@@ -1232,7 +1246,7 @@
     "name": "Groq",
     "description": "High-speed inference API for LLMs, optimized for low-latency AI applications.",
     "shortDescription": "Fast LLM inference API",
-    "image": "/groq.png",
+    "image": "/groq.jpg",
     "category": ["API", "LLM"],
     "tags": ["Inference", "Low Latency", "Hardware-Optimized", "API"],
     "languages": ["Python", "JavaScript", "TypeScript"],

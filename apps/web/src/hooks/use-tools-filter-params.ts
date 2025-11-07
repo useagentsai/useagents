@@ -7,12 +7,68 @@ import {
 
 export const toolsLanguages = [
   {
-    label: "JavaScript",
-    value: "javascript",
+    label: "JavaScript/TypeScript",
+    value: "javascript/typescript",
   },
   {
     label: "Python",
     value: "python",
+  },
+  {
+    label: "Go",
+    value: "go",
+  },
+  {
+    label: "Java",
+    value: "java",
+  },
+  {
+    label: "SQL",
+    value: "sql",
+  },
+  {
+    label: "Rust",
+    value: "rust",
+  },
+  {
+    label: "C++",
+    value: "c++",
+  },
+  {
+    label: "Dart",
+    value: "dart",
+  },
+  {
+    label: "Multi-language support",
+    value: "multi-language",
+  },
+  {
+    label: "Swift",
+    value: "swift",
+  },
+  {
+    label: "Kotlin",
+    value: "kotlin",
+  },
+  {
+    label: "C#",
+    value: "csharp",
+  },
+  {
+    label: "R",
+    value: "r",
+  },
+  {
+    label: "Scala",
+    value: "scala",
+  },
+  {
+    label: "Ruby",
+    value: "ruby",
+  },
+  {
+    label: "PHP",
+    value: "php",
   },
 ] as const;
 

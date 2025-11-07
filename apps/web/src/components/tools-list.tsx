@@ -41,14 +41,36 @@ export function ToolsList({
     }
 
     if (filters.language.length > 0) {
-      const selectedLanguages = filters.language.map((lang) =>
-        lang.toLowerCase()
-      );
-      filtered = filtered.filter((tool) =>
-        tool.languages?.some((lang) =>
-          selectedLanguages.includes(lang.toLowerCase())
-        )
-      );
+      const selectedLanguages = filters.language.map((lang) => lang.toLowerCase());
+      
+      filtered = filtered.filter((tool) => {
+        if (!tool.languages || tool.languages.length === 0) return false;
+        
+        return selectedLanguages.some((selectedLang) => {
+          // Special case for JavaScript/TypeScript grouping
+          if (selectedLang === 'javascript/typescript') {
+            return tool.languages?.some(lang => 
+              lang.toLowerCase() === 'javascript' || 
+              lang.toLowerCase() === 'typescript' ||
+              lang.toLowerCase() === 'javascript/typescript'
+            );
+          }
+          
+          // Special case for multi-language support
+          if (selectedLang === 'multi-language') {
+            return tool.languages?.some(lang => 
+              lang.toLowerCase().includes('multi-language') ||
+              lang.toLowerCase().includes('multi language')
+            );
+          }
+          
+          // Normal case for other languages
+          return tool.languages?.some(lang => 
+            lang.toLowerCase() === selectedLang ||
+            lang.toLowerCase().includes(selectedLang)
+          );
+        });
+      });
     }
 
     if (filters.pricing.length > 0) {
