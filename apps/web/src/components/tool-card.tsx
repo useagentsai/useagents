@@ -15,12 +15,12 @@ export function ToolCard({ tool }: ToolCardProps) {
       <div className="flex items-center mb-3 gap-3">
         <Image
           alt={tool.name}
-          className="rounded-lg border object-cover"
+          className="rounded-lg border object-cover lg:size-10 size-8"
           height={40}
           src={tool.image ? `/logos${tool.image}` : "/logos/ai-sdk.png"}
           width={40}
         />
-        <h3 className="font-medium text-lg group-hover:text-foreground transition-colors">
+        <h3 className="font-medium lg:text-lg text-base group-hover:text-foreground transition-colors">
           {tool.name}
         </h3>
       </div>

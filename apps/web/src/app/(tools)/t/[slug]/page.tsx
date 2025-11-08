@@ -66,14 +66,14 @@ export default async function ToolPage({ params }: ToolPageProps) {
             <div className="flex items-center gap-4 ">
               <Image
                 alt={tool.name}
-                className="rounded-lg border"
+                className="rounded-lg border lg:size-16 size-12"
                 height={64}
                 src={tool.image ? `/logos${tool.image}` : "/logos/ai-sdk.png"}
                 width={64}
               />
 
               <div>
-                <h1 className="text-2xl font-medium tracking-tight mb-1">
+                <h1 className="lg:text-2xl text-xl font-medium tracking-tight mb-1">
                   {tool.name}
                 </h1>
               </div>
@@ -100,14 +100,14 @@ export default async function ToolPage({ params }: ToolPageProps) {
         </div>
 
         <div className="my-8">
-          <h2 className="text-xl font-medium mb-2">Description</h2>
+          <h2 className="lg:text-xl text-lg font-medium mb-2">Description</h2>
           <p className="text-muted-foreground text-base font-mono leading-relaxed">
             {tool.description}
           </p>
         </div>
 
         <div className="my-8">
-          <h2 className="text-xl font-medium mb-2">Links</h2>
+          <h2 className="lg:text-xl text-lg font-medium mb-2">Links</h2>
           {tool.website || tool.github ? (
             <div className="flex flex-wrap items-center gap-3 mb-6">
               {tool.website && (
@@ -153,7 +153,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
       {tool.languages && (
         <div className="my-8">
-          <h3 className="text-lg font-medium mb-2">Languages</h3>
+          <h3 className="lg:text-xl text-lg font-medium mb-2">Languages</h3>
           <div className="flex flex-wrap gap-2">
             {tool.languages.map((language) => (
               <div
@@ -169,7 +169,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
       {tool.pricing && (
         <div className="my-8">
-          <h3 className="text-lg font-medium mb-2">Pricing</h3>
+          <h3 className="lg:text-xl text-lg font-medium mb-2">Pricing</h3>
 
           <div className="space-y-1">
             <p className="text-muted-foreground capitalize">
@@ -186,7 +186,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
       {tool.tags.length > 0 && (
         <div className="my-8">
-          <h3 className="text-lg font-medium mb-2">Tags</h3>
+          <h3 className="lg:text-xl text-lg font-medium mb-2">Tags</h3>
           <div className="flex flex-wrap gap-2">
             {tool.tags.map((tag) => (
               <Link
@@ -203,7 +203,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
       {uniqueRelatedTools.length > 0 && (
         <div className="my-8">
-          <h3 className="text-lg font-medium mb-2">Related Tools</h3>
+          <h3 className="lg:text-xl text-lg font-medium mb-2">Related Tools</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
             {uniqueRelatedTools.slice(0, 3).map((tool) => (
               <ToolCard key={tool.slug} tool={tool} />

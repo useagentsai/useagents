@@ -5,7 +5,7 @@ import { ToolSearchInputFilter } from "./tool-search-input-filter";
 
 export function ToolFilters() {
   return (
-    <div className="flex flex-row gap-3 items-center">
+    <div className="flex lg:flex-row flex-wrap gap-3 items-center">
       <Suspense>
         <ToolSearchInputFilter />
         <ToolLanguagesFilter />
