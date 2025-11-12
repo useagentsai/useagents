@@ -9,14 +9,13 @@ import {
 } from "@/hooks/use-tools-filter-params";
 import { tools } from "@/lib/tools";
 import { ToolCategory } from "@/lib/types";
-import { ToolFilters } from "./tool-filters";
 
 export function ToolsList({
   category = "all",
 }: {
   category: ToolCategory | "all";
 }) {
-  const { filters } = useToolsFilterParams();
+  const { filters, hasFilters } = useToolsFilterParams();
 
   const filteredTools = useMemo(() => {
     let filtered = tools;
@@ -137,27 +136,21 @@ export function ToolsList({
     return filtered.sort((a, b) => a.name.localeCompare(b.name));
   }, [category, filters]);
 
-  return (
-    <>
-      {/* Filters and Search */}
-      <div className="mb-6 space-y-4">
-        <ToolFilters />
+  if (hasFilters && filteredTools.length === 0) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-muted-foreground">
+          No tools found matching your criteria.
+        </p>
       </div>
+    );
+  }
 
-      {/* Tools Grid/List */}
-      {filteredTools.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {filteredTools.map((tool) => (
-            <ToolCard key={tool.slug} tool={tool} />
-          ))}
-        </div>
-      ) : (
-        <div className="text-center py-12">
-          <p className="text-muted-foreground">
-            No tools found matching your criteria.
-          </p>
-        </div>
-      )}
-    </>
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {filteredTools.map((tool) => (
+        <ToolCard key={tool.slug} tool={tool} />
+      ))}
+    </div>
   );
 }

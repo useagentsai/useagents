@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FadeInOutWrapper } from "@/components/motion-wrappers";
 
 export const metadata: Metadata = {
   title: `About`,
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="container max-w-3xl mx-auto px-6 lg:py-12 py-24  md:mt-24  pb-32">
+    <FadeInOutWrapper className="container max-w-3xl mx-auto px-6 lg:py-12 py-24  md:mt-24  pb-32">
       <div className="prose prose-neutral dark:prose-invert max-w-none">
         <h1 className="lg:text-4xl md:text-3xl text-2xl  text-center font-medium  lg:mb-20 mb-10">
           Why we built nt3
@@ -71,6 +72,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-    </div>
+    </FadeInOutWrapper>
   );
 }

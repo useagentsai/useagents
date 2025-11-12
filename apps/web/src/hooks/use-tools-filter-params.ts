@@ -104,5 +104,6 @@ export function useToolsFilterParams() {
   return {
     filters,
     setFilters,
+    hasFilters: Object.values(filters).some((value) => value !== null),
   };
 }

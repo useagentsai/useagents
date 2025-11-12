@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    remotePatterns: [new URL("https://img.youtube.com/vi/**")],
+  },
 };
 
 export default nextConfig;

@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { FadeInOutWrapper } from "@/components/motion-wrappers";
+import { ToolFilters } from "@/components/tool-filters";
 import { ToolsList } from "@/components/tools-list";
 
 export default function ToolsPage() {
@@ -14,6 +15,10 @@ export default function ToolsPage() {
       <p className="mb-10 text-muted-foreground text-balance max-w-xl">
         Curated tools for building the next generation of AI.
       </p>
+      <div className="mb-6">
+        <ToolFilters />
+      </div>
+
       <Suspense>
         <ToolsList category="all" />
       </Suspense>

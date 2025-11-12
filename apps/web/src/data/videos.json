@@ -1,0 +1,90 @@
+[
+  {
+    "id": "video-1",
+    "title": "Building agents with the AI SDK (Nico Albanese)",
+    "description": "Learn the basics of building AI agents with the AI SDK.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1bx-eosOOkE&t=2275s",
+    "category": ["Agents"],
+    "creator": "Vercel",
+    "publishedAt": "2025-06-15"
+  },
+  {
+    "id": "video-2",
+    "title": "Vercel AI SDK Masterclass: From Fundamentals to Deep Research",
+    "description": "Learn the basics of building AI agents with the AI SDK.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kDlqpN1JyIw&t=10s",
+    "category": ["Framework"],
+    "creator": "AI Engineer",
+    "publishedAt": "2025-06-15"
+  },
+  {
+    "id": "video-3",
+    "title": "Building MCP servers using Gram from Speakeasy",
+    "description": "In this demo, Georges Haidar, software engineer at Speakeasy, walks us through Gram, a new platform for creating AI agent tools and MCP servers from APIs. Watch as he transforms the massive Stripe API (600+ endpoints) into focused, usable tool sets that AI agents can actually work with effectively. Learn about the sweet spot for tool count and best practices, how to improve tool descriptions for better agent understanding, and see a powerful demo of cross-API workflows that combine HubSpot, Stripe, and Speakeasy APIs into a single business process solution. Perfect for developers looking to build practical AI agents that can handle real-world business tasks.",
+    "youtubeUrl": "https://youtu.be/sNVVfTdnczY?si=A8V8XgbTobJnlg-l",
+    "category": ["MCP"],
+    "creator": "AI Engineer",
+    "publishedAt": "2025-06-15"
+  },
+  {
+    "id": "video-4",
+    "title": "An introduction to the Workflow Development Kit",
+    "description": "A deep dive into our latest OSS framework for building durable apps and AI agents",
+    "youtubeUrl": "https://youtu.be/1ewYyXO52Po?si=F5gc2pKrVvPI__J8",
+    "category": ["Workflows"],
+    "creator": "Vercel",
+    "publishedAt": "2025-06-15"
+  },
+
+  {
+    "id": "video-5",
+    "title": "Intro to PlanetScale",
+    "description": "We're covering all the basics of how PlanetScale works, both for Postgres and Vitess databases. Learn about high-availability configurations, insights, metrics, sharding, and more. We'll also be answering viewer questions live!",
+    "youtubeUrl": "https://www.youtube.com/live/W_ljegBqnyo?si=HkrTiDgAE9pxt52u",
+    "category": ["Database"],
+    "creator": "Vercel",
+    "publishedAt": "2025-06-15"
+  },
+  {
+    "id": "video-6",
+    "title": "Fine tuning Gemini with Google AI Studio",
+    "description": "Step-by-step on fine-tuning Gemini models in Google AI Studio for tasks like text generation, with data quality and evaluation tips.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-ja5TmYhQks",
+    "category": ["LLM"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2025-03-27"
+  },
+  {
+    "id": "video-7",
+    "title": "Introduction to Autonomous Agents using Microsoft AutoGen",
+    "description": "Overview of AutoGen framework for creating customizable LLM agents that communicate, plan, and execute tasks with tools and memory.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3r9hj8N-pp4",
+    "category": ["Agents"],
+    "creator": "Microsoft Reactor",
+    "publishedAt": "2024-11-18"
+  },
+  {
+    "id": "video-8",
+    "title": "Beginner's Guide to Convex Workflow",
+    "description": "In this video, we talk about one of Convex's most powerful components Workflow. We're going to go over what a workflow is and how we can get it setup using convex.",
+    "youtubeUrl": "https://youtu.be/9mdx79-cqLc?si=gn27fgrbPGcXa7P9",
+    "category": ["Workflows"],
+    "creator": "Convex",
+    "publishedAt": "2024-11-18"
+  },
+  {
+    "id": "video-9",
+    "title": "The Ultimate Convex Crash Course",
+    "description": "In this video, I go over the core primitives of Convex... if you're new to Convex or need a refresher this video is for you.",
+    "youtubeUrl": "https://youtu.be/_Qqvoq8JVXM?si=CuawcYZFQKD6GUfV",
+    "category": ["Workflows"],
+    "links": [
+      {
+        "title": "Checkout Convex",
+        "link": "https://www.convex.dev/"
+      }
+    ],
+    "creator": "Convex",
+    "publishedAt": "2024-11-18"
+  }
+]

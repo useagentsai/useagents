@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { FadeInWrapper } from "@/components/motion-wrappers";
+import { ToolFilters } from "@/components/tool-filters";
 import { ToolsList } from "@/components/tools-list";
 import { allSections } from "@/data/sections";
 import { getAllCategories } from "@/lib/tools";
@@ -43,6 +44,9 @@ export default async function ToolPage(props: PageProps<"/[category]">) {
           <p className="text-muted-foreground">{section?.description}</p>
         </div>
 
+        <div className="mb-6 space-y-4">
+          <ToolFilters />
+        </div>
         <Suspense>
           <ToolsList category={category as ToolCategory} />
         </Suspense>

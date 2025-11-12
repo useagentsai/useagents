@@ -138,6 +138,10 @@
   --color-info: var(--info);
 }
 
+.player {
+  border-radius: 50px;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

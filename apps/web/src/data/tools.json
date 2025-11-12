@@ -299,7 +299,22 @@
     "website": "https://convex.dev",
     "github": "https://github.com/convex-dev/convex",
     "pricing": {
-      "model": "open-source"
+      "model": "freemium"
+    }
+  },
+  {
+    "slug": "convex",
+    "name": "Convex Workflow",
+    "image": "/convex.png",
+    "description": "Open-source vector similarity search engine and vector database. High performance, production-ready vector search with filtering capabilities.",
+    "shortDescription": "Convex component for durably executing workflows. ",
+    "category": ["Workflows"],
+    "tags": ["Convex", "Open Source", "RAG", "Real-Time"],
+    "languages": ["TypeScript", "JavaScript", "Python"],
+    "website": "https://www.convex.dev/components/workflow",
+    "github": "https://github.com/get-convex/workflow",
+    "pricing": {
+      "model": "freemium"
     }
   },
   {
@@ -574,7 +589,7 @@
     "description": "NoSQL database with vector search capabilities via Atlas, suitable for flexible AI data storage.",
     "shortDescription": "Flexible NoSQL database for AI",
     "image": "/mongodb.png",
-    "category": ["Database"],
+    "category": ["Database", "Vector"],
     "tags": ["NoSQL", "Vector Search", "Atlas", "Scalable"],
     "languages": [
       "Python",
@@ -2041,6 +2056,7 @@
       "model": "freemium"
     }
   },
+
   {
     "slug": "firebase-studio",
     "name": "Firebase Studio",

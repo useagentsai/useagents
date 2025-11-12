@@ -1,3 +1,4 @@
+import { YouTubeEmbed } from "@next/third-parties/google";
 import { ArrowUpRightIcon } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";

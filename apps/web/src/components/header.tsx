@@ -10,6 +10,14 @@ export default function Header() {
 
   const links = [
     {
+      href: "/",
+      label: "Tools",
+    },
+    {
+      href: "/videos",
+      label: "Videos",
+    },
+    {
       href: "/about",
       label: "About",
     },
@@ -43,9 +51,11 @@ export default function Header() {
                 </Link>
               );
             })}
-
-            <ThemeToggle />
+            <Link href={"https://github.com/nt3ai"} target="_blank">
+              GitHub
+            </Link>
           </nav>
+          <ThemeToggle />
         </div>
       </div>
     </header>
