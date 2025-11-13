@@ -11,7 +11,7 @@ export function VideoCard({ video }: { video: (typeof videos)[0] }) {
 
   return (
     <Link
-      className="p-3 rounded-3xl cursor-pointer flex flex-col gap-5 duration-300 dark:hover:bg-accent/50 hover:bg-accent transition-all max-w-[450px] w-full"
+      className="lg:p-3 p-2 rounded-3xl cursor-pointer flex flex-col gap-5 duration-300 dark:hover:bg-accent/50 hover:bg-accent transition-all max-w-[450px] w-full"
       href={`/videos/v/${video.id}`}
     >
       <div className="relative w-full aspect-video">

@@ -37,35 +37,32 @@ export default async function VideoWatchPage(
 
   return (
     <FadeInOutWrapper className="container max-w-5xl mx-auto my-10">
-      <div className="relatve aspect-video">
+      <div className="relatve aspect-video ">
         <YouTubeEmbed
-          height={400}
           params="autoplay=1"
           style="width: 100%; max-width: 100%;"
           videoid={youtubeId as string}
         />
       </div>
 
-      <div className="flex flex-col gap-2 my-10 pl-5">
+      <div className="flex flex-col gap-2 lg:my-10 my-5 lg:pl-5 pl-0">
         {/* Single-line ellipsis for title */}
         <h1 className="text-2xl font-medium truncate">{video.title}</h1>
 
         {/* Multi-line ellipsis (2 lines) for description */}
-        <p className="text-muted-foreground text-base line-clamp-2 font-mono">
-          {video.description}
-        </p>
+        <p className="text-muted-foreground text-base  ">{video.description}</p>
       </div>
 
       {relatedVideos.length > 0 && (
-        <div className="flex flex-col gap-2 my-10 w-full">
+        <div className="flex flex-col gap-2 lg:my-10 my-5 w-full">
           {/* Single-line ellipsis for title */}
-          <h2 className="lg:text-xl text-lg font-medium mb-2 pl-5">
+          <h2 className="lg:text-xl text-lg font-medium mb-2 lg:pl-5 pl-0">
             More related videos
           </h2>
 
           {/* Multi-line ellipsis (2 lines) for description */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-">
-            {uniqueRelatedVideos.map((video) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {uniqueRelatedVideos.slice(0, 3).map((video) => (
               <VideoCard key={video.id} video={video} />
             ))}
           </div>

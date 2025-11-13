@@ -90,8 +90,8 @@ export default function Header() {
                   <Menu className="h-5 w-5" />
                 </Button>
               </SheetTrigger>
-              <SheetContent className="w-64" side="right">
-                <div className="flex flex-col gap-6 mt-8">
+              <SheetContent side="left">
+                <div className="flex flex-col gap-6 mt-8 p-4">
                   {/* Mobile Navigation Links */}
                   <nav className="flex flex-col gap-4">
                     {links.map((link) => {
